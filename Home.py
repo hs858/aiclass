@@ -5,10 +5,9 @@ def to_markdown(text):
     text = text.replace('•', '*')
     return textwrap.indent(text, '> ', predicate=lambda _: True)
 
-st.title("교육용 Streamlit 앱")
+st.title("우당탕탕 streamlit앱")
 st.subheader("소개")
-st.markdown("이 교육용 Streamlit 앱에 오신 것을 환영합니다! 이 앱은 학생들이 Google Generative AI를 사용하여 코딩을 인터랙티브하게 배울 수 있도록 설계되었습니다. 🌟")
-
+st.markdown("우당탕탕 Streamlit 앱에 오신 것을 환영합니다! 떠오르는 주제로 우당탕탕 만들었습니다.")
 st.subheader("기능")
 st.markdown("""
 * **코드 예제 1**: 생물을 입력하면 분류체계와 특징을 보여줍니다.
