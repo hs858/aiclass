@@ -59,7 +59,7 @@ def get_image_url(creature_name, access_key):
 
 # Streamlit 앱 구성
 st.title("생물 분류 및 특성 시스템")
-st.write("생물의 이름을 입력하면 해당 생물이 속하는 분류와 특성을 알려줍니다 (문 단계까지).")
+st.write("생물의 이름을 입력하면 해당 생물이 속하는 분류와 특성을 알려줍니다 .")
 
 st.text("만든이:HS")
 
